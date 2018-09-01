@@ -46,7 +46,7 @@
                 <a class="nav-link disabled" href="#">Disabled</a>
             </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0" style="color: white!important;">
+        <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
                     style="color: white; border-color: white">Search
@@ -55,9 +55,14 @@
     </div>
 </nav>
 
-<div class="w-50 p-5 m-auto">
+<div class="w-auto p-5 m-auto" style="max-width: 700px; min-width: 500px">
 
     <form>
+        <div class="form-group">
+            <label for="organizer">Organizer</label>
+            <input type="text" class="form-control" id="organizer"
+                   placeholder="">
+        </div>
 
         <div class="form-group">
             <label for="title">Title</label>
@@ -77,10 +82,17 @@
             <input type="text" class="form-control" id="location">
         </div>
 
+        <div class="form-group">
+            <label for="price">Price</label>
+            <!--<input type="text" class="form-control" id="description" placeholder="Description">-->
+            <input type="text" class="form-control" id="price">
+        </div>
+
         <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="masterPointCheck">
             <label class="form-check-label" for="masterPointCheck">Master point tournament</label>
         </div>
+
 
         <div class="container">
             <div class="row">
@@ -104,7 +116,7 @@
         <div class="container">
             <div class="row">
                 <div class="form-group">
-                    <label class="" for="datetimepicker2">End</label>
+                    <label class="" for="datetimepicker2">Registration Ends</label>
                     <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker2"/>
                         <div class="input-group-append" data-target="#datetimepicker2" data-toggle="datetimepicker">
@@ -118,11 +130,6 @@
                     });
                 </script>
             </div>
-        </div>
-
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="masterPointCheck">Check me out</label>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
