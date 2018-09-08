@@ -6,8 +6,13 @@ $(document).ready(function() {
             center: 'title',
             right: 'listDay,listWeek,month'
         },
+        dayClick: function(date, jsEvent, view) {
 
-        // customize the button names,
+            $('#tournamenteditor').css('display', 'block');
+            // change the day's background color just for fun
+        },
+
+            // customize the button names,
         // otherwise they'd all just say "list"
         views: {
             listDay: { buttonText: 'list day' },
@@ -17,12 +22,25 @@ $(document).ready(function() {
         defaultView: 'month',
         defaultDate: '2018-09-06',
         navLinks: true, // can click day/week names to navigate views
+        select: function(start, end) {
+            console.log("click");
+            var title = prompt('Event Title:');
+            var eventData;
+            if (title) {
+                eventData = {
+                    title: title,
+                    start: start,
+                    end: end
+                };
+                $('#calendar').fullCalendar('renderEvent', eventData, true); // stick? = true
+            }
+        },
         editable: false,
         eventLimit: true, // allow "more" link when too many events
         events: [
             {
                 title: 'All Day Event',
-                start: '2018-03-01'
+                start: '2018-09-07'
             },
             {
                 title: 'Long Event',
