@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-    // date pickers
-
-
+    $(document).on('keydown')
 
     $('#calendar').fullCalendar({
         header: {
@@ -10,10 +8,23 @@ $(document).ready(function() {
             center: 'title',
             right: 'listDay,listWeek,month'
         },
-        dayClick: function(date, jsEvent, view) {
 
+        // create a new event
+        dayClick: function(date, jsEvent, view) {
+            $('#updatebutton').css('display', 'none');
+            $('#deletebutton').css('display', 'none');
+            $('#createbutton').css('display', 'inline-block');
             $('#tournamenteditor').css('display', 'block');
-            // change the day's background color just for fun
+
+        },
+
+        // modify or delete the event
+        eventClick: function(calEvent, jsEvent, view) {
+            $('#updatebutton').css('display', 'inline-block');
+            $('#deletebutton').css('display', 'inline-block');
+            // you can copy an event with this
+            $('#createbutton').css('display', 'inline-block');
+            $('#tournamenteditor').css('display', 'block');
         },
 
 

@@ -11,6 +11,7 @@
     display: none;
 }
 
-.tournamenteditor div .form-control {
+.tournamenteditor div .form-control, .input-group-text {
     border-color: gray;
 }
+
