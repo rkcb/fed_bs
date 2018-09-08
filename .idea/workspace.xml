@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50814f10-0378-4318-8479-dfff82dc276c" name="Default" comment="Move fullcalendar js to a file">
-      <change afterPath="$PROJECT_DIR$/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/editor.js" afterDir="false" />
+    <list default="true" id="50814f10-0378-4318-8479-dfff82dc276c" name="Default" comment="Add some calendar styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mycss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mycss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tournamentcalendar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/mycalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mycalendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tournamenteditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/tournamenteditor.html" afterDir="false" />
     </list>
@@ -63,19 +60,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="583" />
-          <entry key="html" value="5314" />
-          <entry key="js" value="410" />
+          <entry key="css" value="842" />
+          <entry key="html" value="5358" />
+          <entry key="js" value="494" />
           <entry key="md" value="313" />
-          <entry key="txt" value="134" />
+          <entry key="txt" value="172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="583" />
-          <entry key="HTML" value="5314" />
-          <entry key="JavaScript" value="410" />
-          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="CSS" value="842" />
+          <entry key="HTML" value="5358" />
+          <entry key="JavaScript" value="494" />
+          <entry key="PLAIN_TEXT" value="172" />
           <entry key="Scratch" value="313" />
         </counts>
       </usages-collector>
@@ -83,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournamenteditor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+            <state relative-caret-position="-560">
+              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -109,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/editor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -120,7 +117,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
-                <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+                <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -130,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mycalendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -140,16 +137,16 @@
         <entry file="file://$PROJECT_DIR$/css/mycss.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/calendar.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/tournamentcalendar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="280">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -176,6 +173,7 @@
       <find>calendar</find>
       <find>xy</find>
       <find>white</find>
+      <find>descr</find>
     </findStrings>
     <replaceStrings>
       <replace>js/fullcalendar/</replace>
@@ -201,11 +199,12 @@
         <option value="$PROJECT_DIR$/tournamentcreation.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/calendar_todo.md" />
         <option value="$PROJECT_DIR$/js/editor.js" />
-        <option value="$PROJECT_DIR$/js/mycalendar.js" />
         <option value="$PROJECT_DIR$/css/mycss.css" />
-        <option value="$PROJECT_DIR$/tournamenteditor.html" />
         <option value="$PROJECT_DIR$/css/editor.css" />
         <option value="$PROJECT_DIR$/css/calendar.css" />
+        <option value="$PROJECT_DIR$/css/tournamentcalendar.css" />
+        <option value="$PROJECT_DIR$/js/mycalendar.js" />
+        <option value="$PROJECT_DIR$/tournamenteditor.html" />
       </list>
     </option>
   </component>
@@ -369,7 +368,7 @@
       <workItem from="1536241857651" duration="418000" />
       <workItem from="1536242306040" duration="1230000" />
       <workItem from="1536246292244" duration="6638000" />
-      <workItem from="1536407677171" duration="7163000" />
+      <workItem from="1536407677171" duration="13525000" />
     </task>
     <task id="LOCAL-00001" summary="Modify main menu">
       <created>1531564300944</created>
@@ -406,17 +405,24 @@
       <option name="project" value="LOCAL" />
       <updated>1536249581203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add some calendar styling">
+      <created>1536415315358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536415315358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112652000" />
+    <option name="totallyTimeSpent" value="119014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1920" height="1117" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15039578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15039578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Query Editor" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -436,7 +442,7 @@
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32932934" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.33146697" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32832834" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,7 +488,8 @@
     <MESSAGE value="Add a calendar event form fields" />
     <MESSAGE value="Improve tournament editor" />
     <MESSAGE value="Move fullcalendar js to a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move fullcalendar js to a file" />
+    <MESSAGE value="Add some calendar styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some calendar styling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/feathers.html">
@@ -597,9 +604,23 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -610,43 +631,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mycalendar.js">
+    <entry file="file://$PROJECT_DIR$/css/tournamentcalendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mycss.css">
+    <entry file="file://$PROJECT_DIR$/js/mycalendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tournamenteditor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        <state relative-caret-position="-560">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/editor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/calendar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>

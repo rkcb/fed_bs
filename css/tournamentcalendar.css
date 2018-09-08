@@ -7,6 +7,17 @@
     border-radius: 5px;
 }
 
+/* calendar background color */
 div.fc-view-container {
     background-color: white;
 }
+
+a.fc-day-number {
+   font-size: large;
+}
+
+td.fc-day {
+    cursor: pointer;
+}
+
+

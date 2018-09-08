@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    // date pickers
+
+
+
     $('#calendar').fullCalendar({
         header: {
             left: 'prev,next today',
@@ -11,6 +15,7 @@ $(document).ready(function() {
             $('#tournamenteditor').css('display', 'block');
             // change the day's background color just for fun
         },
+
 
             // customize the button names,
         // otherwise they'd all just say "list"
