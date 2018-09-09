@@ -14,7 +14,11 @@ a.fc-day-number {
     font-size: large;
 }
 
-td.fc-day {
+/*
+<td class="fc-day-top fc-thu fc-past" data-date="2018-09-06"><a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-09-06&quot;,&quot;type&quot;:&quot;day&quot;}">6</a></td>
+*/
+/* <td class="fc-day fc-widget-content fc-thu fc-past" data-date="2018-09-06"></td> */
+td.fc-day, td.fc-widget-content {
     cursor: pointer;
 }
 

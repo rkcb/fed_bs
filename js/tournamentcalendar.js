@@ -1,13 +1,46 @@
 $(document).ready(function() {
 
-    // great datepicker
-    $("#datepicker").flatpickr({
-        enableTime: true,
-        dateFormat: "d.m.Y H:i",
+    /////////////////////////////////////////////////////
+    // create datepicker for tournament begin
+
+    var beginDatepicker = $("#begin").flatpickr({
+        weekNumbers: true,
+        clickOpens: true,
+        time_24hr: true,
+        dateFormat: "Y-m-dTH:i",
         altInput: true,
-        altFormat: "d.M.Y, H:i",
-        dateFormat: "Y-m-d",
+        altFormat: "d.m.Y, H:i",
+        enableTime: true,
+        // locale: "fi",
     });
+
+    $('#closebutton').click(function () {
+        $('#tournamenteditor').css('display', 'none');
+    });
+
+    // set ESC down event close the tournament editor iff it is open
+    // set Enter to choose the current date value
+    window.addEventListener('keydown', function (event) {
+
+        if (event.key === 'Enter'){
+            let beginDatepickerVisible = $('div.flatpickr-calendar').css('display') === 'block';
+
+            if (beginDatepickerVisible){
+                beginDatepicker.close();
+            }
+
+        }
+        if (event.key === 'Escape') {
+            let visible = $('#tournamenteditor').css('display') === 'block';
+
+            if (visible) {
+                $('#tournamenteditor').css('display', 'none');
+            }
+        }
+    }, true);
+    /////////////////////////////////////////////////////
+
+
 
     $('#calendar').fullCalendar({
         header: {
@@ -22,10 +55,11 @@ $(document).ready(function() {
             $('#deletebutton').css('display', 'none');
             $('#createbutton').css('display', 'inline-block');
             $('#tournamenteditor').css('display', 'block');
-
+            // initialize the datetime value of the datepicker
+            beginDatepicker.setDate(date.format() + 'T11:00');
         },
 
-        // modify or delete the event
+        // modify, copy or delete an event
         eventClick: function(calEvent, jsEvent, view) {
             $('#updatebutton').css('display', 'inline-block');
             $('#deletebutton').css('display', 'inline-block');
