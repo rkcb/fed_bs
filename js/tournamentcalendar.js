@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
-    $(document).on('keydown')
+    // great datepicker
+    $("#datepicker").flatpickr({
+        enableTime: true,
+        dateFormat: "d.m.Y H:i",
+        altInput: true,
+        altFormat: "d.M.Y, H:i",
+        dateFormat: "Y-m-d",
+    });
 
     $('#calendar').fullCalendar({
         header: {

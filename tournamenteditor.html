@@ -30,20 +30,10 @@
     <!-- full calendar ends -->
 
     <!-- Datetime picker -->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>-->
-    <!--<script type="text/javascript"-->
-            <!--src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>-->
-    <!--<link rel="stylesheet"-->
-          <!--href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"/>-->
+    <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <!---->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" src="tempusdominus/font-awesome.css" />
-    <script type="text/javascript" src="tempusdominus/moment.min.js"></script>
-    <script type="text/javascript" src="tempusdominus/tempusdominus-bootstrap-4.min.js"></script>
-    <link rel="stylesheet" src="tempusdominus/tempusdominus-bootstrap-4.min.css" />
 
     <meta charset="UTF-8">
     <title>Title</title>
@@ -64,7 +54,7 @@
 
             <div class="form-group">
                 <label for="organizer">Organizer</label>
-                <input type="text" class="form-control myclass" id="organizer"
+                <input type="text" class="form-control" id="organizer"
                        placeholder="">
             </div>
 
@@ -80,32 +70,9 @@
                 <textarea class="form-control" placeholder="" name="" id="description" cols="40" rows="3"></textarea>
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="">
-                        <div class="form-group">
-                            <label for="datetimepicker1">Begin</label>
-                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1"/>
-                                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
-                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">
-                        $(function () {
-                            $('#datetimepicker1').datetimepicker({
-                                icons: {
-                                    time: "fa fa-clock-o",
-                                    date: "fa fa-calendar",
-                                    up: "fa fa-arrow-up",
-                                    down: "fa fa-arrow-down"
-                                }
-                            });
-                        });
-                    </script>
-                </div>
+            <div class="form-group">
+                <label for="datepicker">Begin</label>
+                <input class="form-control flatpickr flatpickr-input" type="text" placeholder="" id="datepicker" data-id="datetime" readonly="readonly">
             </div>
 
             <div class="form-group">
@@ -188,10 +155,9 @@
 <!--crossorigin="anonymous"></script>-->
 
 <!-- Icons -->
-<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
-<script>
-    feather.replace();
-</script>
+<!--<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>-->
+<!--<script>-->
+    <!--feather.replace(); </script> -->
 
 </body>
 </html>
